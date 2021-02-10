@@ -3,13 +3,27 @@ $fname= $_POST['fname'];
 $lname= $_POST['lname'];
 $city= $_POST['city'];
 $groupid= $_POST['groupid'];
+$nameErr = "";
+
+if (isset ($_POST['fname'], $_POST['lname'], $_POST['city'], $_POST['groupid'])) {
+
+
 $sql="insert into studentsinfo (fname, lname, city, groupid)
 values('$fname', '$lname', '$city', '$groupid')";
+}
 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    if (empty($_POST["fname"])) {
+      $nameErr = "Name is required";
+    } else {
+      $fname = test_input($_POST["fname"]);
+}
+}
 if($conn->query($sql) === TRUE) {
     echo "New record added";
     echo "<a href='update.php' class='top'>Home </a>";
 }
+
 else
 {
     echo "ERROR: " .$sql. "<br>" . $conn->error;
