@@ -21,6 +21,5 @@ else
     echo "no results";
 }
 
-
 $conn->close();
 ?>
