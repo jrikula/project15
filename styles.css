@@ -1,0 +1,34 @@
+.footer{
+    background:#8F000C;
+    height: 400px;
+    position: relative;
+}
+
+.footer .footer-content{
+    border: 1px;
+    height: 350px;
+    display: flex;
+    color: white;
+}
+
+.footer .footer-content .foot-selection{
+    flex: 1;
+    border: 1px;
+    padding:30px;
+}
+
+.footer .footer-content .foot-selection address {
+    padding-top: 20px;
+}
+
+.footer .footer-bottom{
+    background-color: rgb(65, 3, 3);
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    color: white;
+}
