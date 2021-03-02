@@ -10,7 +10,7 @@
 <body>
 
 
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #a60e08";>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #a30909";>
   <a class="navbar-brand" href="#">
     <img src="icon1.png" width="60" height="60" alt="">
   </a>
