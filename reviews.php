@@ -1,4 +1,5 @@
 <?php include "header.php" ?>
+<?php include "database.php"?>
 
 <!doctype html>
 <html lang="en">
@@ -37,12 +38,16 @@
                         <select name="filter_date"> 
                             <option value="" disabled selected>Date</option>
                             </select>
+
+                            <?php echo $_POST["reviewtext"]; ?>
             </div>
 
             <div class="col-md-1"></div>
 
             <div class="col-md-4">
                     <h2>Write Review</h2>
+
+                    <form>
 
                     <select name="movies"> 
                     <option value="" disabled selected>Movie</option>
@@ -52,8 +57,6 @@
 
                     </select>
 
-
-                    <div>
                         <input type="radio" id="1star" name="stars" value="1star">
                         <label for="1star">1 Star</label>
 
@@ -68,14 +71,11 @@
 
                         <input type="radio" id="5star" name="stars" value="5star">
                         <label for="5star">5 Stars</label>
-                      </div>
 
-                      <div>
                         <input type="text" name="reviewtext" id="reviewtext"
+                        method="post" action="review.php"
                         placeholder="Write Review">
-                    </div>
 
-                    <div>
                         <input type="text" id="username" name="username" placeholder="Username">
                         <input type="checkbox" id="anonymous" name="anonymous" onclick="anon()">
                         <label for="anonymous" class="anontext">OR stay anonymous</label>
@@ -87,13 +87,9 @@
                                }else{
                                  document.getElementById("username").disabled = false;
                                }}</script> 
-                    </div>
 
-                    <button name="submit" class="btn btn-light">SUBMIT</button>
-
-            </div>
-
-        </div>
+                    <button name="submit" class="btn btn-light" input type="submit"> SUBMIT</button>
+                    </form>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
