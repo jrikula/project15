@@ -8,15 +8,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="fp.css">
+
     <title>Document</title>
+
 </head>
-<body>
+<body id="fpbody">
 <div class="container">
 <h1>Movihut</h1>
 
 <img src="image.png" alt="">
 
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nisl mauris, ultrices
+<p id="fptext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nisl mauris, ultrices
  lobortis ex elementum, posuere vulputate nibh. Mauris nec magna feugiat, congue sapien at,
   congue magna. Aliquam varius, lectus ut auctor placerat, urna neque commodo libero, id
    commodo ligula sem vel leo.</p>

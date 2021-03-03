@@ -1,16 +1,18 @@
-body {
+.fpbody {
+    color: white;
     text-align: center;
     background-color: #110c08;
-    color: white;
     font-family: 'Archivo', sans-serif;
 }
 
 h1 {
+    color: white;
     padding-top: 50px;
     padding-bottom: 10px;
     text-transform: uppercase;
 }
 
-p {
+.fptext {
+    color: white;
     padding-top: 90px;
 }
