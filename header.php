@@ -12,16 +12,16 @@
 
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #a30909; font-family: 'Jost', sans-serif; font-size: 20px;">
-  <a class="navbar-brand" href="#">
+  <a class="navbar-brand" href="http://localhost/project15/fp.php">
     <img src="icon1.png" width="60" height="60" alt="">
   </a>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="#" style="color: white">CURRENT MOVIES <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="http://localhost/project15/currentmovies.php" style="color: white">CURRENT MOVIES <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item active">
-        <a class="nav-link" href="#" style="color: white">REVIEWS <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="http://localhost/project15/reviews.php" style="color: white">REVIEWS <span class="sr-only">(current)</span></a>
       </li>
     </ul>
   </div>
