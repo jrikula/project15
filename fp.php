@@ -14,11 +14,12 @@
 </head>
 <body id="fpbody">
 <div class="container">
-<h1>Movihut</h1>
+<h1 style="text-align: center">Movihut</h1>
 
-<img src="image.png" alt="">
+<img src="image.png" alt="" style="max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto">
+<br>
 
-<p id="fptext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nisl mauris, ultrices
+<p id="fptext" style="color: white; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nisl mauris, ultrices
  lobortis ex elementum, posuere vulputate nibh. Mauris nec magna feugiat, congue sapien at,
   congue magna. Aliquam varius, lectus ut auctor placerat, urna neque commodo libero, id
    commodo ligula sem vel leo.</p>
