@@ -13,7 +13,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #a30909; font-family: 'Jost', sans-serif; font-size: 20px;">
   <a class="navbar-brand" href="http://localhost/project15/fp.php">
-    <img src="icon1.png" width="60" height="60" alt="">
+    <img src="images/icon1.png" width="60" height="60" alt="">
   </a>
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">

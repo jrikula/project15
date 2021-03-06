@@ -16,7 +16,7 @@
 <div class="container">
 <h1 style="text-align: center">Movihut</h1>
 
-<img src="image.png" alt="" style="max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto">
+<img src="images/image.png" alt="" style="max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto">
 <br>
 
 <p id="fptext" style="color: white; text-align: center;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nisl mauris, ultrices

@@ -4,10 +4,6 @@ $rating= $_POST['rating'];
 $review_text= $_POST['review_text'];
 $movie= $_POST['movie'];
 
-if (empty ($username)) {
-    echo"ERROR: USERNAME IS REQUIRED!";
-}
-
 if (empty ($rating)) {
     echo" ERROR: RATING IS REQUIRED!";
 }
