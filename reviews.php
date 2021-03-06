@@ -1,5 +1,5 @@
 <?php include "header.php" ?>
-<?php include "database.php"?>
+<?php include "db.php"?>
 
 <!doctype html>
 <html lang="en">
@@ -45,36 +45,40 @@
             <div class="col-md-1"></div>
 
             <div class="col-md-4">
+
+
+            
                     <h2>Write Review</h2>
-
-                    <form>
-
-                    <select name="movies"> 
+                    <form method="post" action="create_review.php">
+                    <select name="movie"> 
                     <option value="" disabled selected>Movie</option>
-                    <option value="Movie1"> Movie 1 </option>
-                    <option value="Movie2"> Movie 2 </option>
-                    <option value="Movie3"> Movie 3 </option>
-
+                    <option value="Black Widow"> Black Widow </option>
+                    <option value="Blazing Samurai"> Blazing Samurai </option>
+                    <option value="The Fast and Furious 9"> The Fast and Furious 9 </option>
+                    <option value="Gozilla VS Kong"> Gozilla VS Kong </option>
+                    <option value="The Boss Baby: Family Business"> The Boss Baby: Family Business </option>
+                    <option value="James Bond: No Time to Die"> James Bond: No Time to Die </option>
+                    <option value="Wrong Turn"> Wrong Turn </option>
+                    <option value="The Conjuring 3"> The Conjuring 3 </option>
+                    <option value="Raya and The Last Dragon"> Raya and The Last Dragon </option>
+                    <option value="Candyman"> Candyman </option>
+                    <option value="To All the Boys: Always and Forever"> To All the Boys: Always and Forever </option>
                     </select>
 
-                        <input type="radio" id="1star" name="stars" value="1star">
-                        <label for="1star">1 Star</label>
+                    <select name="rating">
+                    <option value="1"> 1 </option> 
+                    <option value="2"> 2 </option> 
+                    <option value="3"> 3 </option> 
+                    <option value="4"> 4 </option>
+                    <option value="5"> 5 </option>
+                    <option value="6"> 6 </option>
+                    <option value="7"> 7 </option>
+                    <option value="8"> 8 </option>
+                    <option value="9"> 9 </option>
+                    <option value="10"> 10 </option>
+                    </select>
 
-                        <input type="radio" id="2star" name="stars" value="2star">
-                        <label for="2star">2 Stars</label>
-
-                        <input type="radio" id="3star" name="stars" value="3star">
-                        <label for="3star">3 Stars</label>
-
-                        <input type="radio" id="4star" name="stars" value="4star">
-                        <label for="4star">4 Stars</label>
-
-                        <input type="radio" id="5star" name="stars" value="5star">
-                        <label for="5star">5 Stars</label>
-
-                        <input type="text" name="reviewtext" id="reviewtext"
-                        method="post" action="review.php"
-                        placeholder="Write Review">
+                        <input type="text" name="review_text" id="review_text" placeholder="Write Review">
 
                         <input type="text" id="username" name="username" placeholder="Username">
                         <input type="checkbox" id="anonymous" name="anonymous" onclick="anon()">
@@ -88,7 +92,7 @@
                                  document.getElementById("username").disabled = false;
                                }}</script> 
 
-                    <button name="submit" class="btn btn-light" input type="submit"> SUBMIT</button>
+                    <button name="submit" class="btn btn-light" input type="submit" value="Save Data"> SUBMIT</button>
                     </form>
     </div>
   </div>
