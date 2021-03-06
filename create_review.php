@@ -18,7 +18,7 @@ else {
 
     if($conn->query($sql) === TRUE) {
         echo "New review added";
-        echo "<a href='update.php' class='top'>Home </a>";
+        echo "<a href='reviews.php' class='top'>Return </a>";
     }
     else
     {
