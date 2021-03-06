@@ -45,10 +45,10 @@
                             $result = $conn->query($sql);
                             if($result ->num_rows > 0) {
                             //fetch_assoc(): It fetches result as an associative array.
-                            echo "<table border=\"1\"><tr><th>ID</th><th>Usernamee</th><th>Rating</th>
+                            echo "<table border=\"1\"><tr><th>Username</th><th>Rating</th>
                             <th>Review Text</th><th>Movie</th> </tr>";
                                 while($row = $result ->fetch_assoc()){
-                                    echo "<tr><td>" . $row["review_id"] . "</td><td>". $row["username"]."</td> <td>". $row["rating"] 
+                                    echo "</td><td>". $row["username"]."</td> <td>". $row["rating"] 
                                     
                                     ."</td><td>". $row["review_text"]. "</td><td>". $row["movie"]
                                     ."</td></tr>";
