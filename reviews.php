@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="reviewstyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
     <title>Reviews</title>
@@ -38,20 +40,27 @@
                         <select name="filter_date"> 
                             <option value="" disabled selected>Date</option>
                             </select>
-
+                            <input class="form-control" id="myInput" type="text" placeholder="Search..">
                             <?php
                             include 'db.php'; 
                             $sql = "select * from reviews";
                             $result = $conn->query($sql);
                             if($result ->num_rows > 0) {
                             //fetch_assoc(): It fetches result as an associative array.
-                            echo "<table border=\"1\"><tr><th>Username</th><th>Rating</th>
-                            <th>Review Text</th><th>Movie</th> </tr>";
+                            echo "<table class=\"table table-bordered table-striped\">
+                            <thead>
+                              <tr>
+                                <th>Username</th>
+                                <th>Rating</th>
+                                <th>Review Text</th>
+                                <th>Movie</th>
+                              </tr>
+                            </thead>";
                                 while($row = $result ->fetch_assoc()){
-                                    echo "</td><td>". $row["username"]."</td> <td>". $row["rating"] 
+                                    echo "<tbody id=\"myTable\"> </td><td>". $row["username"]."</td> <td>". $row["rating"] 
                                     
                                     ."</td><td>". $row["review_text"]. "</td><td>". $row["movie"]
-                                    ."</td></tr>";
+                                    ."</td></tr></tbody>";
                                 }
                                 echo "</table>";
                             }
@@ -121,7 +130,16 @@
     </div>
   </div>
 </div>
-
+<script>
+$(document).ready(function(){
+  $("#myInput").on("keyup", function() {
+    var value = $(this).val().toLowerCase();
+    $("#myTable tr").filter(function() {
+      $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+    });
+  });
+});
+</script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
   </body>
 </html>
