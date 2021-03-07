@@ -111,7 +111,8 @@
                     <option value="10"> 10 </option>
                     </select>
 
-                        <input type="text" name="review_text" id="review_text" placeholder="Write Review">
+                        <!-- <input type="text" name="review_text" id="review_text" placeholder="Write Review" style="height: 300px; width: 90%;"> -->
+                        <textarea id="review_text" name="review_text" placeholder="Write Review" style="width: 90%; height: 200px;"></textarea>
 
                         <input type="text" id="username" name="username" placeholder="Username">
                         <input type="checkbox" id="anonymous" name="anonymous" onclick="anon()">
