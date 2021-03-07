@@ -8,11 +8,11 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="reviewstyle.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="reviewstyle.css">
 
 
     <title>Moviehut - Reviews</title>
@@ -22,8 +22,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                    Filter by:
-                    <select name="filter_movie"> 
+                    <p>Filter by: 
+                      <select name="filter_movie"> 
                         <option value="" disabled selected>Movie</option>
                         <option value="Movie1"> Movie 1 </option>
                         <option value="Movie2"> Movie 2 </option>
@@ -39,8 +39,8 @@
 
                         <select name="filter_date"> 
                             <option value="" disabled selected>Date</option>
-                            </select>
-                            <input class="form-control" id="myInput" type="text" placeholder="Search..">
+                            </select></p>
+                            <input class="form-control" id="myInput" type="text" placeholder="Search.."><br>
                             <?php
                             include 'db.php'; 
                             $sql = "select * from reviews";
@@ -53,7 +53,7 @@
                                 <th>Username</th>
                                 <th>Rating</th>
                                 <th>Review Text</th>
-                                <th>Movie</th>
+                                <th class=\"movierow\">Movie</th>
                               </tr>
                             </thead>";
                                 while($row = $result ->fetch_assoc()){
@@ -111,7 +111,6 @@
                     <option value="10"> 10 </option>
                     </select>
 
-                        <!-- <input type="text" name="review_text" id="review_text" placeholder="Write Review" style="height: 300px; width: 90%;"> -->
                         <textarea id="review_text" name="review_text" placeholder="Write Review" style="width: 90%; height: 200px;"></textarea>
 
                         <input type="text" id="username" name="username" placeholder="Username">
