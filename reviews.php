@@ -22,24 +22,6 @@
     <div class="container">
         <div class="row">
             <div class="col-md-7">
-                    <p>Filter by: 
-                      <select name="filter_movie"> 
-                        <option value="" disabled selected>Movie</option>
-                        <option value="Movie1"> Movie 1 </option>
-                        <option value="Movie2"> Movie 2 </option>
-                        <option value="Movie3"> Movie 3 </option>
-                        </select>
-
-                    <select name="filter_rating"> 
-                        <option value="" disabled selected>Rating</option>
-                        <option value="Star1"> 1 Star </option>
-                        <option value="Star2"> 2 Stars </option>
-                        <option value="Star3"> 3 Stars </option>
-                        </select>
-
-                        <select name="filter_date"> 
-                            <option value="" disabled selected>Date</option>
-                            </select></p>
                             <input class="form-control" id="myInput" type="text" placeholder="Search.."><br>
                             <?php
                             include 'db.php'; 
