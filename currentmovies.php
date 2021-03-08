@@ -32,7 +32,7 @@
           </div>
           <div class="button">
             <p>
-              <a href="#"><button type="button" class="btn btn-light">Book Tickets</button></a>
+              <a href="http://localhost/project15/popup page.php"><button type="button" class="btn btn-light">Book Tickets</button></a>
             </p>
           </div>
         </div>
@@ -48,7 +48,7 @@
           </div>
           <div class="button">
             <p>
-              <a href="#"><button type="button" class="btn btn-light">Book Tickets</button></a>
+              <a href="http://localhost/project15/popup page.php"><button type="button" class="btn btn-light">Book Tickets</button></a>
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@
           </div> 
           <div class="button">
             <p>
-              <a href="#"><button type="button" class="btn btn-light">Book Tickets</button></a>
+              <a href="http://localhost/project15/popup page.php"><button type="button" class="btn btn-light">Book Tickets</button></a>
             </p>
           </div>
         </div>
@@ -81,7 +81,7 @@
           </div>
           <div class="button">
             <p>
-              <a href="#"><button type="button" class="btn btn-light">Book Tickets</button></a>
+              <a href="http://localhost/project15/popup page.php"><button type="button" class="btn btn-light">Book Tickets</button></a>
             </p>
           </div>
         </div>
@@ -97,7 +97,7 @@
           </div>
           <div class="button">
             <p>
-              <a href="#"><button type="button" class="btn btn-light">Book Tickets</button></a>
+              <a href="http://localhost/project15/popup page.php"><button type="button" class="btn btn-light">Book Tickets</button></a>
             </p>
           </div>
         </div>
@@ -114,7 +114,7 @@
           </div>
           <div class="button">
             <p>
-              <a href="#"><button type="button" class="btn btn-light">Book Tickets</button></a>
+              <a href="http://localhost/project15/popup page.php"><button type="button" class="btn btn-light">Book Tickets</button></a>
             </p>
           </div>
         </div>
@@ -132,7 +132,7 @@
           </div>
           <div class="button">
             <p>
-              <a href="#"><button type="button" class="btn btn-light">Book Tickets</button></a>
+              <a href="http://localhost/project15/popup page.php"><button type="button" class="btn btn-light">Book Tickets</button></a>
             </p>
           </div>
         </div>
@@ -148,7 +148,7 @@
           </div>
           <div class="button">
             <p>
-              <a href="#"><button type="button" class="btn btn-light">Book Tickets</button></a>
+              <a href="http://localhost/project15/popup page.php"><button type="button" class="btn btn-light">Book Tickets</button></a>
             </p>
           </div>
         </div>
@@ -164,7 +164,7 @@
           </div>
           <div class="button">
             <p>
-              <a href="#"><button type="button" class="btn btn-light">Book Tickets</button></a>
+              <a href="http://localhost/project15/popup page.php"><button type="button" class="btn btn-light">Book Tickets</button></a>
             </p>
           </div>
         </div>
@@ -182,7 +182,7 @@
           </div>
           <div class="button">
             <p>
-              <a href="#"><button type="button" class="btn btn-light">Book Tickets</button></a>
+              <a href="http://localhost/project15/popup page.php"><button type="button" class="btn btn-light">Book Tickets</button></a>
             </p>
           </div>
         </div>
@@ -198,7 +198,7 @@
           </div>
           <div class="button">
             <p>
-              <a href="#"><button type="button" class="btn btn-light">Book Tickets</button></a>
+              <a href="http://localhost/project15/popup page.php"><button type="button" class="btn btn-light">Book Tickets</button></a>
             </p>
           </div>
         </div>
@@ -214,7 +214,7 @@
           </div>
           <div class="button">
             <p>
-              <a href="#"><button type="button" class="btn btn-light">Book Tickets</button></a>
+              <a href="http://localhost/project15/popup page.php"><button type="button" class="btn btn-light">Book Tickets</button></a>
             </p>
           </div>
         </div>
