@@ -1,0 +1,20 @@
+body{
+    background: black;
+}
+
+.ptitle{
+    color: white;
+}
+
+form{
+    color: white;
+}
+
+.footer{
+    background:#a30909;
+    height: 190px;
+    position: relative;
+    font-family: 'Archivo', sans-serif;
+}
+
+
