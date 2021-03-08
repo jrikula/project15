@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="reviewstyle.css">
 
 
-    <title>Moviehut - Reviews</title>
+    <title>Movihut - Reviews</title>
   </head>
 
   <body>
