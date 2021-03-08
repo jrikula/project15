@@ -19,10 +19,12 @@
 <img src="images/image.png" alt="" style="max-width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto">
 <br>
 
-<p id="fptext" style="color: white; text-align: center; margin-bottom: 5%; margin-top: 3%">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nisl mauris, ultrices
- lobortis ex elementum, posuere vulputate nibh. Mauris nec magna feugiat, congue sapien at,
-  congue magna. Aliquam varius, lectus ut auctor placerat, urna neque commodo libero, id
-   commodo ligula sem vel leo.</p>
+<p id="fptext" style="color: white; text-align: center; margin-bottom: 5%; margin-top: 3%">MoviHut is not just a movie cinema
+but a family for all movie lovers
+and we are glad you choose us.
+we bring you the latest movies with different categories
+and hope you enjoy it
+welcome to the family.</p>
 
 </div>
 
